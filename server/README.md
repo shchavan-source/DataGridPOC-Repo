@@ -3,6 +3,8 @@
 To start static and dynamic cache place:
 1. clustered.xml file in the DataGrid_HOME/standalone/configuration directory.
 2. standalone.conf file in DataGrid_HOME/bin directory.
+3. module.xml file in the modules/system/layers/base/org/postgresql/main directory. Create the directories if not present.
+4. postgresql-42.2.6.jar in the modules/system/layers/base/org/postgresql/main directory.
 
 Following parameters needs to be updated in standalone.conf file
 
